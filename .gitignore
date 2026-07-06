@@ -1,0 +1,30 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Ambiente local
+.env
+.env.*
+!.env.example
+
+# Dependências e saídas comuns
+node_modules/
+dist/
+build/
+coverage/
+target/
+
+# Temporários
+tmp/
+temp/
+.cache/

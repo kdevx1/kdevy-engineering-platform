@@ -1,0 +1,7 @@
+# KdevX Engineering Platform - CODEOWNERS
+#
+# Este repositório é proprietário da KdevX Systems.
+# Atualize o identificador abaixo para o time real no GitHub antes de exigir
+# revisão automática por CODEOWNERS.
+
+* @kdevx-systems/engineering
