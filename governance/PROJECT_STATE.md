@@ -8,6 +8,9 @@
 - Classificação padrão: Interno
 - Versão inicial: 0.1.0 Foundation
 - Onda atual: Onda 1 - Foundation
+- Corporate Identity: Incubada na KEP
+- Repository Boundaries Review: concluída
+- Dívida arquitetural: extração futura de `docs/corporate/` para `kdevx-systems`
 - Data de criação: 2026-07-06
 
 ## Estado atual

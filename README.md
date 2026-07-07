@@ -26,6 +26,7 @@ kdevx-engineering-platform/
 ├── .github/          # Governança de revisão no GitHub
 ├── assets/           # Materiais visuais, blueprint e marca
 ├── blueprint/        # Arquitetura conceitual da KEP
+├── docs/             # Documentação institucional e complementar
 ├── governance/       # Estado, métricas e governança
 ├── knowledge/        # KEKB, a base de conhecimento da KEP
 ├── specifications/   # KES, especificações de engenharia
@@ -57,15 +58,24 @@ Resumo dos componentes:
 - KDF: framework de entrega.
 - Produtos: sistemas consumidores, começando pelo AutoBody ERP.
 
+## Identidade Corporativa
+
+A identidade institucional da KdevX Systems fica em `docs/corporate/README.md`.
+
+Essa área separa empresa, plataforma e produtos: a KdevX Systems é a entidade institucional, a KEP é sua plataforma de engenharia, e o AutoBody ERP é produto consumidor da plataforma.
+
+`docs/corporate/` está incubada temporariamente dentro da KEP por pragmatismo inicial. Conceitualmente, a identidade corporativa pertence à KdevX Systems e poderá ser extraída futuramente para um repositório institucional separado chamado `kdevx-systems`.
+
 ## Como começar
 
 1. Leia este `README.md`.
 2. Leia `blueprint/KEP-BLUEPRINT.md` para entender a arquitetura geral.
-3. Leia `governance/PROJECT_STATE.md` para entender a versão atual.
-4. Leia as políticas em `policies/`.
-5. Consulte `knowledge/GLOSSARY.md` antes de criar novos termos.
-6. Use os modelos em `templates/` para ADRs, KIPs, tarefas e revisões.
-7. Ao propor uma mudança estrutural, registre uma KIP ou ADR conforme o caso.
+3. Leia `docs/corporate/README.md` para entender a identidade institucional.
+4. Leia `governance/PROJECT_STATE.md` para entender a versão atual.
+5. Leia as políticas em `policies/`.
+6. Consulte `knowledge/GLOSSARY.md` antes de criar novos termos.
+7. Use os modelos em `templates/` para ADRs, KIPs, tarefas e revisões.
+8. Ao propor uma mudança estrutural, registre uma KIP ou ADR conforme o caso.
 
 ## Orientação para agentes de IA
 

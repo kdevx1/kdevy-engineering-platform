@@ -4,23 +4,38 @@
 
 Este documento descreve a arquitetura conceitual inicial da KdevX Engineering Platform, ou KEP.
 
+A KdevX Systems é a entidade institucional proprietária dos ativos intelectuais, plataformas, produtos, documentos e padrões.
+
 A KEP é a plataforma-mãe de engenharia da KdevX Systems. Ela organiza governança, conhecimento, especificações, padrões, políticas, automação, IA, entrega e documentação para sustentar produtos atuais e futuros.
+
+A identidade corporativa da KdevX Systems fica em `docs/corporate/`. Essa área orienta empresa, plataforma e produtos, mas não substitui a arquitetura da KEP.
 
 O AutoBody ERP é o primeiro produto que consumirá a KEP, mas seu código-fonte não pertence a este repositório e não deve ser copiado para cá.
 
 ## Arquitetura geral
 
 ```text
-KdevX Engineering Platform (KEP)
-├── KEKB - KdevX Engineering Knowledge Base
-├── KES  - KdevX Engineering Specifications
-├── KAF  - KdevX AI Framework
-├── KGF  - KdevX Governance Framework
-├── KAP  - KdevX Automation Platform
-├── KDF  - KdevX Delivery Framework
+KdevX Systems
+├── Identidade Corporativa
+│   └── docs/corporate/
+├── KdevX Engineering Platform (KEP)
+│   ├── KEKB - KdevX Engineering Knowledge Base
+│   ├── KES  - KdevX Engineering Specifications
+│   ├── KAF  - KdevX AI Framework
+│   ├── KGF  - KdevX Governance Framework
+│   ├── KAP  - KdevX Automation Platform
+│   └── KDF  - KdevX Delivery Framework
 └── Produtos
     └── AutoBody ERP
 ```
+
+## KdevX Systems
+
+A KdevX Systems é a entidade institucional.
+
+Ela é proprietária dos ativos intelectuais, documentos, padrões, prompts, playbooks, arquitetura, plataformas e produtos criados sob sua direção.
+
+Sua identidade corporativa fica em `docs/corporate/` e deve orientar a KEP, o AutoBody ERP e futuros produtos.
 
 ## KEP - KdevX Engineering Platform
 
@@ -76,6 +91,8 @@ O primeiro produto consumidor é o AutoBody ERP. Ele deve usar padrões, políti
 ## Princípios de arquitetura
 
 - A KEP é proprietária da KdevX Systems.
+- A KdevX Systems é a entidade institucional.
+- A identidade corporativa fica em `docs/corporate/`.
 - A KEP é a fonte de verdade para engenharia, governança e conhecimento técnico.
 - A KEKB é um módulo da KEP, não uma entidade independente.
 - Produtos consomem a KEP, mas não são copiados para dentro dela.

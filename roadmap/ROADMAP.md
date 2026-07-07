@@ -66,3 +66,7 @@ Entregas esperadas:
 - Controles de classificação e acesso.
 - Integração com múltiplos produtos.
 - Auditoria e melhoria contínua.
+
+## Itens futuros
+
+- Avaliar criação do repositório institucional `kdevx-systems` para extrair a identidade corporativa atualmente incubada em `docs/corporate/`.

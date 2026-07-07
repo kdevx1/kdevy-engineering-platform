@@ -11,6 +11,7 @@ ADRs registram decisões relevantes, seu contexto e suas consequências.
 - Escrever em português do Brasil.
 - Registrar decisões que afetem arquitetura, governança, IA, padrões, produtos ou propriedade intelectual.
 
-## ADR inicial
+## ADRs registradas
 
 - `ADR-0000_FOUNDATION.md`: decisão de criar a KEP como ativo estratégico proprietário.
+- `ADR-0001_CORPORATE_IDENTITY_SEPARATION.md`: decisão de separar a identidade corporativa da KEP.
