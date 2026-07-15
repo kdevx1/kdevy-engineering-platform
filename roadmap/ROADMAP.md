@@ -2,7 +2,7 @@
 
 ## Visão geral
 
-O roadmap da KdevX Engineering Platform está organizado em ondas.
+O roadmap da KDEVY Engineering Platform está organizado em ondas.
 
 Cada onda amplia a maturidade da plataforma-mãe, preservando a separação entre a KEP e os repositórios de produtos.
 
@@ -45,7 +45,7 @@ Entregas esperadas:
 
 ## Onda 4 - IA
 
-Objetivo: formalizar o uso de IA na engenharia da KdevX Systems.
+Objetivo: formalizar o uso de IA na engenharia da KDEVY.
 
 Entregas esperadas:
 
@@ -69,4 +69,4 @@ Entregas esperadas:
 
 ## Itens futuros
 
-- Avaliar criação do repositório institucional `kdevx-systems` para extrair a identidade corporativa atualmente incubada em `docs/corporate/`.
+- Avaliar criação do repositório institucional `kdevy-systems` para extrair a identidade corporativa atualmente incubada em `docs/corporate/`.

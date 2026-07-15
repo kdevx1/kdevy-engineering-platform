@@ -2,12 +2,12 @@
 
 ## Princípios
 
-Contribuições para a KdevX Engineering Platform devem preservar a clareza, a rastreabilidade e a propriedade intelectual da KdevX Systems.
+Contribuições para a KDEVY Engineering Platform devem preservar a clareza, a rastreabilidade e a propriedade intelectual da KDEVY.
 
 ## Regras obrigatórias
 
 - Escrever em português do Brasil.
-- Usar apenas a licença interna proprietária definida pela KdevX Systems.
+- Usar apenas a licença interna proprietária definida pela KDEVY.
 - Não copiar código-fonte do AutoBody ERP.
 - Tratar a KEP como plataforma-mãe.
 - Tratar a KEKB como módulo de conhecimento dentro da KEP.

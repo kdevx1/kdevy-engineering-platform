@@ -1,8 +1,8 @@
-# Cultura da KdevX Systems
+# Cultura da KDEVY
 
-## Como a KdevX Systems trabalha
+## Como a KDEVY trabalha
 
-A KdevX Systems trabalha com foco em clareza, documentação, responsabilidade técnica e evolução contínua.
+A KDEVY trabalha com foco em clareza, documentação, responsabilidade técnica e evolução contínua.
 
 O trabalho deve produzir resultado, mas também deve deixar contexto suficiente para que outras pessoas e agentes de IA autorizados entendam decisões, limites e próximos passos.
 
@@ -14,7 +14,7 @@ Quando uma decisão afetar arquitetura, governança, IA, plataforma ou produtos,
 
 ## Como a empresa usa IA
 
-A KdevX Systems usa IA como apoio ao ciclo de engenharia.
+A KDEVY usa IA como apoio ao ciclo de engenharia.
 
 Agentes de IA podem ajudar a criar documentos, revisar padrões, propor implementações, analisar riscos e acelerar tarefas, desde que respeitem políticas internas, classificação da informação e revisão humana quando necessária.
 
@@ -26,6 +26,6 @@ Aprendizados relevantes devem sair da memória individual e entrar em documentos
 
 ## Como a empresa protege conhecimento
 
-A KdevX Systems protege conhecimento por meio de classificação da informação, controle de escopo, separação entre plataforma e produto, revisão de conteúdo e respeito à propriedade intelectual.
+A KDEVY protege conhecimento por meio de classificação da informação, controle de escopo, separação entre plataforma e produto, revisão de conteúdo e respeito à propriedade intelectual.
 
 Documentos institucionais não devem conter dados pessoais sensíveis, dados familiares, segredos ou dados privados.

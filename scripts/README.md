@@ -1,6 +1,6 @@
 # Scripts
 
-Este diretório reunirá scripts e automações da KdevX Engineering Platform.
+Este diretório reunirá scripts e automações da KDEVY Engineering Platform.
 
 ## Diretrizes
 

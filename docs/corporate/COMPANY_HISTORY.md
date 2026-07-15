@@ -1,14 +1,14 @@
-# História da KdevX Systems
+# História da KDEVY
 
-## Origem da KdevX Systems
+## Origem da KDEVY
 
-A KdevX Systems nasce da necessidade de construir tecnologia proprietária com engenharia mais estruturada, conhecimento reutilizável e governança clara.
+A KDEVY nasce da necessidade de construir tecnologia proprietária com engenharia mais estruturada, conhecimento reutilizável e governança clara.
 
 Sua identidade institucional está ligada à criação de produtos digitais sustentáveis e à formação de uma base técnica capaz de apoiar múltiplas iniciativas ao longo do tempo.
 
 ## Fundação da KEP
 
-A KdevX Engineering Platform foi criada como ativo estratégico proprietário da KdevX Systems.
+A KDEVY Engineering Platform foi criada como ativo estratégico proprietário da KDEVY.
 
 A KEP organiza governança, conhecimento, especificações, padrões, políticas, IA, automação, entrega e documentação para apoiar produtos atuais e futuros.
 
@@ -20,6 +20,6 @@ Ele demonstra o modelo em que um produto utiliza padrões, conhecimento e práti
 
 ## Documento evolutivo
 
-Este documento deve evoluir conforme a KdevX Systems amadurecer sua identidade, seus produtos, sua plataforma de engenharia e sua estratégia institucional.
+Este documento deve evoluir conforme a KDEVY amadurecer sua identidade, seus produtos, sua plataforma de engenharia e sua estratégia institucional.
 
 Novos marcos devem ser registrados com clareza, sem incluir dados pessoais sensíveis ou dados privados.

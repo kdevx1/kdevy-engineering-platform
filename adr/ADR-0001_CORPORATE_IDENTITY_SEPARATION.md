@@ -10,9 +10,9 @@ Accepted
 
 ## Contexto
 
-A KdevX Engineering Platform foi criada como plataforma-mãe de engenharia da KdevX Systems.
+A KDEVY Engineering Platform foi criada como plataforma-mãe de engenharia da KDEVY.
 
-Com a evolução da KEP, ficou necessário separar a identidade institucional da empresa da documentação específica da plataforma. A KdevX Systems precisa de uma área própria para visão, missão, valores, cultura, história, estratégia e diretrizes de marca.
+Com a evolução da KEP, ficou necessário separar a identidade institucional da empresa da documentação específica da plataforma. A KDEVY precisa de uma área própria para visão, missão, valores, cultura, história, estratégia e diretrizes de marca.
 
 Essa identidade deve orientar a KEP, o AutoBody ERP e futuros produtos, sem ficar limitada à plataforma de engenharia.
 
@@ -22,24 +22,24 @@ Decisão final: Opção C.
 
 Separar conceitualmente a identidade corporativa da KEP, mantendo `docs/corporate/` temporariamente dentro deste repositório como área incubada.
 
-Essa área será a referência institucional inicial da KdevX Systems dentro deste repositório, enquanto a KEP continuará sendo a plataforma de engenharia proprietária da empresa.
+Essa área será a referência institucional inicial da KDEVY dentro deste repositório, enquanto a KEP continuará sendo a plataforma de engenharia proprietária da empresa.
 
-`docs/corporate/` pertence conceitualmente à KdevX Systems. Ela permanece na KEP por pragmatismo inicial e poderá ser extraída futuramente para um repositório institucional separado chamado `kdevx-systems`.
+`docs/corporate/` pertence conceitualmente à KDEVY. Ela permanece na KEP por pragmatismo inicial e poderá ser extraída futuramente para um repositório institucional separado chamado `kdevy-systems`.
 
 ## Critérios para extração futura
 
-A extração de `docs/corporate/` para `kdevx-systems` deve ser avaliada quando um ou mais critérios forem atendidos:
+A extração de `docs/corporate/` para `kdevy-systems` deve ser avaliada quando um ou mais critérios forem atendidos:
 
 - houver mais de um produto consumidor ativo além do AutoBody ERP;
 - o volume de documentos institucionais crescer de forma relevante;
 - a identidade corporativa exigir fluxo de aprovação diferente da governança técnica da KEP;
 - houver necessidade de publicar ou compartilhar materiais institucionais sem expor documentação técnica da KEP;
-- produtos futuros começarem a depender da identidade institucional da KdevX Systems;
+- produtos futuros começarem a depender da identidade institucional da KDEVY;
 - permissões, ownership ou classificação da informação precisarem ser separados entre documentos institucionais e documentos de engenharia.
 
 ## Consequências
 
-- A KdevX Systems passa a ter uma área institucional separada da arquitetura da KEP.
+- A KDEVY passa a ter uma área institucional separada da arquitetura da KEP.
 - A KEP continua sendo ativo estratégico, mas não representa sozinha toda a identidade da empresa.
 - `docs/corporate/` fica explicitamente marcada como área incubada e candidata à extração futura.
 - O AutoBody ERP permanece como produto consumidor da KEP.
@@ -54,7 +54,7 @@ Rejeitada porque reduziria a identidade da empresa a uma seção de plataforma.
 
 ### Tratar a KEP como identidade institucional completa
 
-Rejeitada porque a KEP é um ativo de engenharia, não a totalidade da KdevX Systems.
+Rejeitada porque a KEP é um ativo de engenharia, não a totalidade da KDEVY.
 
 ### Colocar identidade corporativa dentro de conhecimento técnico
 
@@ -62,7 +62,7 @@ Rejeitada porque a KEKB é um módulo de conhecimento da KEP, enquanto a identid
 
 ## Impacto
 
-A separação melhora a governança institucional e reduz ambiguidade entre KdevX Systems, KEP e AutoBody ERP.
+A separação melhora a governança institucional e reduz ambiguidade entre KDEVY, KEP e AutoBody ERP.
 
 Também cria uma base mais adequada para futuros produtos, materiais internos, agentes de IA e decisões estratégicas.
 
@@ -71,5 +71,5 @@ Também cria uma base mais adequada para futuros produtos, materiais internos, a
 - Evoluir os documentos de `docs/corporate/`.
 - Criar padrões de uso institucional para novos produtos.
 - Revisar a relação entre identidade corporativa, políticas e roadmap.
-- Avaliar a criação do repositório `kdevx-systems` conforme os critérios de extração futura.
+- Avaliar a criação do repositório `kdevy-systems` conforme os critérios de extração futura.
 - Manter a área livre de dados pessoais sensíveis e dados privados.

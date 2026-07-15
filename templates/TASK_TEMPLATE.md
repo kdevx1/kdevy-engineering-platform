@@ -23,4 +23,4 @@ Inclua informações relevantes para humanos e agentes de IA.
 
 - O conteúdo deve respeitar as políticas da KEP.
 - Código-fonte do AutoBody ERP não deve ser copiado para este repositório.
-- A propriedade intelectual pertence à KdevX Systems.
+- A propriedade intelectual pertence à KDEVY.

@@ -6,21 +6,21 @@ Inicial
 
 ## Proprietária
 
-KdevX Systems
+KDEVY
 
 ## Objetivo
 
-Definir a especificação-mestre inicial da KdevX Engineering Platform.
+Definir a especificação-mestre inicial da KDEVY Engineering Platform.
 
 ## Declaração de plataforma
 
-A KEP é a plataforma-mãe de engenharia da KdevX Systems. Ela governa conhecimento, especificações, políticas, padrões, decisões, automação, IA e práticas de entrega.
+A KEP é a plataforma-mãe de engenharia da KDEVY. Ela governa conhecimento, especificações, políticas, padrões, decisões, automação, IA e práticas de entrega.
 
 ## Componentes principais
 
 - KEKB: módulo de conhecimento da KEP.
 - KES: conjunto de especificações da KEP.
-- KAF: framework de IA da KdevX Systems.
+- KAF: framework de IA da KDEVY.
 - KGF: framework de governança da KEP.
 - KAP: plataforma de automação da KEP.
 - KDF: framework de entrega da KEP.
@@ -29,7 +29,7 @@ A KEP é a plataforma-mãe de engenharia da KdevX Systems. Ela governa conhecime
 ## Regras-mestre
 
 - A KEP é proprietária e interna.
-- Apenas a licença interna proprietária da KdevX Systems se aplica a este repositório.
+- Apenas a licença interna proprietária da KDEVY se aplica a este repositório.
 - Nenhum código-fonte do AutoBody ERP deve ser copiado para este repositório.
 - Documentos devem atender humanos e agentes de IA.
 - Decisões estruturais devem ser registradas por ADR.

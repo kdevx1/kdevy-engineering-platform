@@ -37,7 +37,7 @@ Pontos fortes:
 - podem orientar tanto membros novos quanto agentes de IA;
 - tratam produto consumidor sem acoplar produto à plataforma.
 
-Ponto de atenção: alguns exemplos são datados ao estado atual, como `docs/corporate/` incubada na KEP. Isso é aceitável como exemplo, mas RECOMENDA-SE garantir que o princípio continue válido mesmo após extração para `kdevx-systems`.
+Ponto de atenção: alguns exemplos são datados ao estado atual, como `docs/corporate/` incubada na KEP. Isso é aceitável como exemplo, mas RECOMENDA-SE garantir que o princípio continue válido mesmo após extração para `kdevy-systems`.
 
 ## 3. Duplicidade entre princípios
 
@@ -164,7 +164,7 @@ Risco residual: a expressão "direitos" pode ser interpretada de forma ampla se 
 
 ### Risco de propriedade intelectual
 
-Baixo. A especificação reforça propriedade da KdevX Systems e restrições de divulgação.
+Baixo. A especificação reforça propriedade da KDEVY e restrições de divulgação.
 
 Risco residual: agentes de IA podem usar a noção de "conhecimento reutilizável" de forma ampla demais se a classificação da informação não prevalecer explicitamente.
 
@@ -223,7 +223,7 @@ Pontos fracos:
 - Boa aderência à KES-0000.
 - Linguagem normativa presente em todo o documento.
 - 16 princípios bem distribuídos e majoritariamente atemporais.
-- Separação clara entre KdevX Systems, KEP, AutoBody ERP e produtos futuros.
+- Separação clara entre KDEVY, KEP, AutoBody ERP e produtos futuros.
 - Forte proteção de propriedade intelectual.
 - Tratamento adequado de IA como apoio supervisionado.
 - Boa base para onboarding.
@@ -271,7 +271,7 @@ Recomenda-se ajustar a KES-0001 antes do commit com as mudanças abaixo.
    - agentes DEVEM validar caminhos, referências e diffs antes de concluir trabalho.
 
 6. Ajustar a seção de direitos:
-   - deixar claro que "direitos" são direitos operacionais internos no contexto da engenharia da KdevX Systems;
+   - deixar claro que "direitos" são direitos operacionais internos no contexto da engenharia da KDEVY;
    - adicionar direito de sinalizar bloqueio por risco de segurança, propriedade intelectual ou governança.
 
 ## 16. Melhorias recomendadas para versão futura

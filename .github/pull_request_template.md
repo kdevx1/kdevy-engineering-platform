@@ -1,4 +1,4 @@
-# Modelo de Pull Request - KdevX Engineering Platform
+# Modelo de Pull Request - KDEVY Engineering Platform
 
 ## Resumo
 
@@ -17,7 +17,7 @@ Descreva, em linguagem direta, o que foi alterado e por que a alteração é nec
 
 ## Relação com a KEP
 
-Explique como esta alteração contribui para a KdevX Engineering Platform.
+Explique como esta alteração contribui para a KDEVY Engineering Platform.
 
 ## Impacto em produtos
 
@@ -31,6 +31,6 @@ Detalhe o impacto, se houver.
 
 - [ ] O conteúdo está em português do Brasil.
 - [ ] Nenhum código-fonte do AutoBody ERP foi copiado para este repositório.
-- [ ] A alteração respeita a propriedade intelectual da KdevX Systems.
+- [ ] A alteração respeita a propriedade intelectual da KDEVY.
 - [ ] A documentação é compreensível para humanos e agentes de IA.
 - [ ] Políticas, padrões e decisões relacionados foram atualizados quando necessário.

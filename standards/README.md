@@ -1,6 +1,6 @@
 # Padrões
 
-Este diretório reunirá padrões técnicos, editoriais e operacionais da KdevX Engineering Platform.
+Este diretório reunirá padrões técnicos, editoriais e operacionais da KDEVY Engineering Platform.
 
 ## Objetivo
 
@@ -21,4 +21,4 @@ Criar uma base reutilizável para reduzir ambiguidade, acelerar entregas e alinh
 - Preferir clareza a formalismo excessivo.
 - Explicitar decisões e exceções.
 - Evitar copiar material de produtos consumidores.
-- Preservar propriedade intelectual da KdevX Systems.
+- Preservar propriedade intelectual da KDEVY.

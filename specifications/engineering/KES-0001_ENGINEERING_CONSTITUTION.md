@@ -6,7 +6,7 @@
 | --- | --- |
 | Identificador | KES-0001 |
 | Título | Engineering Constitution |
-| Proprietária | KdevX Systems |
+| Proprietária | KDEVY |
 | Classificação | Interno |
 | Situação | Inicial |
 | Versão | 0.1.1 |
@@ -15,16 +15,16 @@
 
 ## Objetivo
 
-Estabelecer a constituição normativa de engenharia da KdevX Systems no contexto da KdevX Engineering Platform.
+Estabelecer a constituição normativa de engenharia da KDEVY no contexto da KDEVY Engineering Platform.
 
 Este documento define princípios, direitos, deveres e regras de governança que DEVEM orientar pessoas, agentes de IA, documentos, automações, produtos consumidores e decisões técnicas.
 
 ## Escopo
 
-Esta especificação se aplica à engenharia realizada sob direção da KdevX Systems, incluindo:
+Esta especificação se aplica à engenharia realizada sob direção da KDEVY, incluindo:
 
-- KdevX Engineering Platform;
-- KdevX Engineering Knowledge Base;
+- KDEVY Engineering Platform;
+- KDEVY Engineering Knowledge Base;
 - especificações KES;
 - políticas, padrões e templates;
 - automações e agentes de IA autorizados;
@@ -93,13 +93,13 @@ Se o conflito permanecer após aplicar essa precedência, uma nova ADR ou KIP DE
 
 ### 2. Propriedade intelectual protegida
 
-- Descrição: Documentos, padrões, prompts, playbooks, arquitetura, especificações e decisões pertencem à KdevX Systems e DEVEM ser tratados como ativos intelectuais proprietários.
+- Descrição: Documentos, padrões, prompts, playbooks, arquitetura, especificações e decisões pertencem à KDEVY e DEVEM ser tratados como ativos intelectuais proprietários.
 - Justificativa: A base de engenharia é patrimônio estratégico e NÃO DEVE ser tratada como material descartável ou livre de controle.
 - Exemplo de aplicação: Um agente de IA PODE usar documentos da KEP em uma tarefa autorizada, mas NÃO DEVE publicar, exportar ou misturar esse conteúdo com bases externas sem autorização.
 
 ### 3. Separação entre empresa, plataforma e produto
 
-- Descrição: KdevX Systems, KEP, AutoBody ERP e produtos futuros DEVEM ser descritos como entidades distintas.
+- Descrição: KDEVY, KEP, AutoBody ERP e produtos futuros DEVEM ser descritos como entidades distintas.
 - Justificativa: Misturar identidade institucional, plataforma e produto gera acoplamento conceitual e governança ambígua.
 - Exemplo de aplicação: Um documento de produto DEVE dizer que o AutoBody ERP consome a KEP, e NÃO DEVE apresentar o AutoBody ERP como parte interna da plataforma.
 
@@ -183,7 +183,7 @@ Se o conflito permanecer após aplicar essa precedência, uma nova ADR ou KIP DE
 
 ## Direitos
 
-No contexto desta especificação, direitos são direitos operacionais internos da engenharia da KdevX Systems. Eles NÃO representam autorização pública, cessão de propriedade intelectual ou direito externo de uso.
+No contexto desta especificação, direitos são direitos operacionais internos da engenharia da KDEVY. Eles NÃO representam autorização pública, cessão de propriedade intelectual ou direito externo de uso.
 
 Pessoas e agentes de IA autorizados têm direito a:
 
@@ -196,15 +196,15 @@ Pessoas e agentes de IA autorizados têm direito a:
 - sinalizar inconsistências, riscos e ambiguidades.
 - bloquear ou escalar mudança quando houver risco de segurança, propriedade intelectual ou governança.
 
-Esses direitos NÃO autorizam divulgação externa, cópia indevida ou uso fora do escopo aprovado pela KdevX Systems.
+Esses direitos NÃO autorizam divulgação externa, cópia indevida ou uso fora do escopo aprovado pela KDEVY.
 
 ## Deveres
 
 Pessoas e agentes de IA autorizados DEVEM:
 
-- respeitar a propriedade intelectual da KdevX Systems;
+- respeitar a propriedade intelectual da KDEVY;
 - escrever documentação em português do Brasil, salvo nomes próprios, siglas e termos técnicos necessários;
-- preservar a separação entre KdevX Systems, KEP, AutoBody ERP e produtos futuros;
+- preservar a separação entre KDEVY, KEP, AutoBody ERP e produtos futuros;
 - não copiar código-fonte do AutoBody ERP para a KEP;
 - seguir políticas de classificação da informação;
 - registrar decisões relevantes;
@@ -257,7 +257,7 @@ Quando houver dúvida, agentes de IA DEVEM preferir ação conservadora, registr
 
 ## Evolução
 
-Esta especificação DEVE evoluir conforme a maturidade da KEP, da governança da KdevX Systems e dos produtos consumidores.
+Esta especificação DEVE evoluir conforme a maturidade da KEP, da governança da KDEVY e dos produtos consumidores.
 
 Mudanças futuras PODEM incluir:
 
@@ -279,7 +279,7 @@ Esta especificação será considerada aceita quando:
 - explicar sua relação com KES-0000;
 - definir pelo menos 15 princípios constitucionais;
 - incluir direitos, deveres, governança, papel da IA e evolução;
-- preservar a propriedade intelectual da KdevX Systems;
+- preservar a propriedade intelectual da KDEVY;
 - tratar o AutoBody ERP como produto consumidor da KEP;
 - não incluir dados pessoais sensíveis, segredos ou código de produto;
 - passar em `git diff --check`.

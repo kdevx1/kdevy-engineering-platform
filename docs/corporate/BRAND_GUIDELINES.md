@@ -2,33 +2,49 @@
 
 ## Objetivo
 
-Este documento orienta o uso interno dos nomes KdevX Systems, KdevX, KdevX Engineering Platform e AutoBody ERP.
+Este documento orienta o uso interno dos nomes KDEVY, KDEVY Engineering Platform e AutoBody ERP.
 
 Ele não é registro jurídico de marca. Ele é uma diretriz interna para manter consistência institucional em documentos, plataformas, produtos e comunicações autorizadas.
 
-## Uso do nome KdevX Systems
+## Decisão de marca
 
-Use KdevX Systems para se referir à entidade institucional proprietária dos ativos intelectuais, produtos, plataformas, padrões e documentos.
+A marca corporativa oficial é KDEVY.
 
-Use esse nome em documentos formais de identidade, políticas, licenças internas, decisões estratégicas e materiais institucionais.
+A marca de trabalho anterior deve ser abandonada gradualmente por migração documental controlada.
 
-## Uso do nome KdevX
+O domínio `kdevy.com.br` está registrado como ativo digital associado à marca.
 
-Use KdevX como forma curta quando o contexto já deixar claro que a referência é à KdevX Systems.
+Há intenção futura de avaliar o registro da marca KDEVY no INPI.
 
-Evite usar KdevX de modo ambíguo quando houver risco de confusão entre empresa, plataforma e produto.
+## Uso do nome KDEVY
 
-## Uso do nome KdevX Engineering Platform
+Use KDEVY para se referir à entidade institucional proprietária dos ativos intelectuais, produtos, plataformas, padrões e documentos.
 
-Use KdevX Engineering Platform, ou KEP, para se referir à plataforma de engenharia proprietária da KdevX Systems.
+Use KDEVY em documentos formais de identidade, políticas, licenças internas, decisões estratégicas e materiais institucionais.
+
+KDEVY deve ser escrito em letras maiúsculas quando se referir à marca corporativa.
+
+## Uso do nome KDEVY Engineering Platform
+
+Use KDEVY Engineering Platform, ou KEP, para se referir à plataforma de engenharia proprietária da KDEVY.
 
 A KEP não deve ser apresentada como a empresa inteira. Ela é um ativo estratégico da empresa.
+
+## Uso das siglas
+
+As siglas estruturais permanecem válidas:
+
+- KEP = KDEVY Engineering Platform
+- KES = KDEVY Engineering Specification
+- KIP = KDEVY Improvement Proposal
+
+Na primeira ocorrência de um documento, recomenda-se escrever o nome completo seguido da sigla.
 
 ## Uso do nome AutoBody ERP
 
 Use AutoBody ERP para se referir ao produto consumidor inicial da KEP.
 
-O AutoBody ERP não deve ser tratado como sinônimo de KdevX Systems nem como sinônimo de KEP.
+O AutoBody ERP não deve ser tratado como sinônimo de KDEVY nem como sinônimo de KEP.
 
 ## Cuidados com marca
 
@@ -37,13 +53,23 @@ O AutoBody ERP não deve ser tratado como sinônimo de KdevX Systems nem como si
 - Evitar uso público de materiais internos sem autorização.
 - Manter consistência de nomes em documentos e templates.
 - Não registrar dados privados em diretrizes de marca.
+- Evitar substituições em massa sem revisão humana.
+- Preservar histórico e rastreabilidade durante a migração documental.
 
 ## Relação entre marcas e ativos
 
-A KdevX Systems é a proprietária institucional.
+KDEVY é a proprietária institucional.
 
 A KEP é a plataforma de engenharia.
 
 O AutoBody ERP é produto consumidor.
 
 Esta separação deve ser preservada em documentação para humanos e agentes de IA.
+
+## Migração documental
+
+A migração da marca de trabalho anterior para KDEVY deve ser feita por fases.
+
+Documentos novos devem seguir a marca KDEVY.
+
+Documentos existentes devem ser migrados com revisão, preservando contexto, links, histórico e significado normativo.

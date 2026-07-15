@@ -2,35 +2,35 @@
 
 ## AutoBody ERP
 
-Primeiro produto que consumirá a KdevX Engineering Platform. Seu código-fonte deve permanecer em repositório separado.
+Primeiro produto que consumirá a KDEVY Engineering Platform. Seu código-fonte deve permanecer em repositório separado.
 
 ## KAF
 
-KdevX AI Framework. Define princípios, padrões e práticas para uso de IA na engenharia da KdevX Systems.
+KDEVY AI Framework. Define princípios, padrões e práticas para uso de IA na engenharia da KDEVY.
 
 ## KAP
 
-KdevX Automation Platform. Organiza automações, scripts, integrações e rotinas operacionais reutilizáveis.
+KDEVY Automation Platform. Organiza automações, scripts, integrações e rotinas operacionais reutilizáveis.
 
 ## KDF
 
-KdevX Delivery Framework. Define práticas para planejamento, execução, revisão, validação e entrega.
+KDEVY Delivery Framework. Define práticas para planejamento, execução, revisão, validação e entrega.
 
 ## KEKB
 
-KdevX Engineering Knowledge Base. Módulo de conhecimento dentro da KEP.
+KDEVY Engineering Knowledge Base. Módulo de conhecimento dentro da KEP.
 
 ## KEP
 
-KdevX Engineering Platform. Plataforma-mãe proprietária da KdevX Systems para engenharia, governança, conhecimento, IA, padrões e documentação.
+KDEVY Engineering Platform. Plataforma-mãe proprietária da KDEVY para engenharia, governança, conhecimento, IA, padrões e documentação.
 
 ## KES
 
-KdevX Engineering Specifications. Conjunto de especificações técnicas e documentos-mestre da KEP.
+KDEVY Engineering Specification. Conjunto de especificações técnicas e documentos-mestre da KEP.
 
 ## KGF
 
-KdevX Governance Framework. Estrutura de governança técnica, estado, métricas, políticas e responsabilidades.
+KDEVY Governance Framework. Estrutura de governança técnica, estado, métricas, políticas e responsabilidades.
 
 ## Produto consumidor
 

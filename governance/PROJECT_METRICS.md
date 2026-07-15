@@ -2,7 +2,7 @@
 
 ## Propósito
 
-Este documento define métricas iniciais para acompanhar a evolução da KdevX Engineering Platform.
+Este documento define métricas iniciais para acompanhar a evolução da KDEVY Engineering Platform.
 
 As métricas devem ajudar pessoas e agentes de IA a entender maturidade, cobertura e qualidade operacional da plataforma.
 

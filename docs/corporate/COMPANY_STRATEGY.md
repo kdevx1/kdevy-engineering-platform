@@ -1,14 +1,14 @@
-# Estratégia da KdevX Systems
+# Estratégia da KDEVY
 
 ## Estratégia geral
 
-A KdevX Systems busca construir produtos proprietários sustentados por uma plataforma de engenharia reutilizável.
+A KDEVY busca construir produtos proprietários sustentados por uma plataforma de engenharia reutilizável.
 
 A estratégia central é transformar conhecimento, padrões, automação, IA e governança em vantagem operacional e intelectual da empresa.
 
 ## Produtos proprietários
 
-Produtos proprietários devem ser construídos com clareza de escopo, documentação suficiente, arquitetura rastreável e respeito à propriedade intelectual da KdevX Systems.
+Produtos proprietários devem ser construídos com clareza de escopo, documentação suficiente, arquitetura rastreável e respeito à propriedade intelectual da KDEVY.
 
 Cada produto deve ter identidade e repositório próprios quando necessário, consumindo a KEP sem ser incorporado a ela.
 
@@ -28,6 +28,6 @@ Sua função estratégica é validar o modelo de consumo da plataforma por um pr
 
 Produtos futuros poderão consumir a KEP conforme suas necessidades.
 
-A KdevX Systems poderá criar produtos em áreas onde engenharia estruturada, automação, IA responsável e conhecimento reutilizável ofereçam vantagem clara.
+A KDEVY poderá criar produtos em áreas onde engenharia estruturada, automação, IA responsável e conhecimento reutilizável ofereçam vantagem clara.
 
 Qualquer novo produto deve respeitar a separação entre identidade institucional, plataforma de engenharia e produto consumidor.

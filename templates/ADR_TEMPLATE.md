@@ -26,4 +26,4 @@ Descreva opções avaliadas e por que não foram escolhidas.
 
 ## Relação com a KEP
 
-Explique como a decisão afeta a KdevX Engineering Platform.
+Explique como a decisão afeta a KDEVY Engineering Platform.

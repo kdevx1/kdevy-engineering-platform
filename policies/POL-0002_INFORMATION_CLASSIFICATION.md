@@ -6,11 +6,11 @@ Ativa
 
 ## Proprietária
 
-KdevX Systems
+KDEVY
 
 ## Objetivo
 
-Definir níveis de classificação da informação para documentos, padrões, prompts, playbooks, arquitetura, automações e conhecimento da KdevX Engineering Platform.
+Definir níveis de classificação da informação para documentos, padrões, prompts, playbooks, arquitetura, automações e conhecimento da KDEVY Engineering Platform.
 
 ## Níveis de classificação
 
@@ -26,7 +26,7 @@ Exemplos:
 
 ### Interno
 
-Informação de uso interno da KdevX Systems.
+Informação de uso interno da KDEVY.
 
 Exemplos:
 

@@ -1,6 +1,6 @@
 # Políticas
 
-Este diretório reúne políticas internas da KdevX Engineering Platform.
+Este diretório reúne políticas internas da KDEVY Engineering Platform.
 
 As políticas aqui registradas orientam propriedade intelectual, classificação da informação, uso de conhecimento, documentação, automação e IA.
 
@@ -13,5 +13,5 @@ As políticas aqui registradas orientam propriedade intelectual, classificação
 
 - Toda política deve ser escrita em português do Brasil.
 - Toda política deve deixar claro seu escopo.
-- Toda política deve preservar os interesses da KdevX Systems.
+- Toda política deve preservar os interesses da KDEVY.
 - Agentes de IA devem seguir estas políticas ao ler, gerar ou modificar conteúdo neste repositório.

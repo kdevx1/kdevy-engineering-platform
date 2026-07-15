@@ -1,14 +1,14 @@
-# Identidade da KdevX Systems
+# Identidade da KDEVY
 
-## Quem é a KdevX Systems
+## Quem é a KDEVY
 
-A KdevX Systems é a entidade institucional proprietária dos ativos intelectuais, produtos, plataformas, padrões, documentos, playbooks, prompts, arquiteturas e práticas de engenharia criados sob sua direção.
+A KDEVY é a entidade institucional proprietária dos ativos intelectuais, produtos, plataformas, padrões, documentos, playbooks, prompts, arquiteturas e práticas de engenharia criados sob sua direção.
 
 A empresa atua na construção de tecnologia proprietária com foco em engenharia estruturada, governança, IA responsável, conhecimento reutilizável e produtos digitais sustentáveis.
 
-## O que a KdevX Systems constrói
+## O que a KDEVY constrói
 
-A KdevX Systems constrói:
+A KDEVY constrói:
 
 - plataformas internas de engenharia;
 - produtos digitais proprietários;
@@ -20,7 +20,7 @@ A KdevX Systems constrói:
 
 ## Como a empresa pensa engenharia
 
-Engenharia, para a KdevX Systems, é uma disciplina de clareza, responsabilidade e continuidade.
+Engenharia, para a KDEVY, é uma disciplina de clareza, responsabilidade e continuidade.
 
 A empresa valoriza:
 
@@ -34,7 +34,7 @@ A empresa valoriza:
 
 ## Como a empresa pensa IA
 
-A KdevX Systems trata IA como capacidade de apoio, não como substituição integral de responsabilidade humana.
+A KDEVY trata IA como capacidade de apoio, não como substituição integral de responsabilidade humana.
 
 Agentes de IA podem acelerar pesquisa, documentação, análise, automação e implementação, desde que atuem dentro de políticas, limites de segurança, revisão humana e rastreabilidade.
 
@@ -42,19 +42,19 @@ Agentes de IA podem acelerar pesquisa, documentação, análise, automação e i
 
 Governança é o mecanismo que protege continuidade e coerência.
 
-A KdevX Systems usa governança para registrar decisões, classificar informações, preservar propriedade intelectual e manter alinhamento entre empresa, plataformas e produtos.
+A KDEVY usa governança para registrar decisões, classificar informações, preservar propriedade intelectual e manter alinhamento entre empresa, plataformas e produtos.
 
-## Relação entre KdevX Systems, KEP e AutoBody ERP
+## Relação entre KDEVY, KEP e AutoBody ERP
 
-A KdevX Systems é a entidade institucional.
+A KDEVY é a entidade institucional.
 
-A KdevX Engineering Platform, ou KEP, é a plataforma de engenharia da empresa e um ativo estratégico proprietário.
+A KDEVY Engineering Platform, ou KEP, é a plataforma de engenharia da empresa e um ativo estratégico proprietário.
 
 O AutoBody ERP é o primeiro produto consumidor da KEP. Ele utiliza padrões, conhecimento e diretrizes da plataforma, mas seu código-fonte e sua evolução de produto permanecem separados da KEP.
 
 ## O que a empresa não faz
 
-A KdevX Systems não mistura identidade institucional com código de produto.
+A KDEVY não mistura identidade institucional com código de produto.
 
 A empresa não trata a KEP como produto final de cliente. A KEP é a plataforma-mãe de engenharia.
 

@@ -1,16 +1,16 @@
 # Conhecimento
 
-Este diretório representa a KEKB, a KdevX Engineering Knowledge Base.
+Este diretório representa a KEKB, a KDEVY Engineering Knowledge Base.
 
-A KEKB é o módulo de conhecimento dentro da KdevX Engineering Platform. Ela não é uma plataforma separada.
+A KEKB é o módulo de conhecimento dentro da KDEVY Engineering Platform. Ela não é uma plataforma separada.
 
 ## Objetivo
 
-Organizar conhecimento técnico, conceitual, operacional e contextual da KdevX Systems para reutilização por humanos e agentes de IA.
+Organizar conhecimento técnico, conceitual, operacional e contextual da KDEVY para reutilização por humanos e agentes de IA.
 
 ## Conteúdo inicial
 
-- `GLOSSARY.md`: glossário de termos da KEP e do ecossistema KdevX.
+- `GLOSSARY.md`: glossário de termos da KEP e do ecossistema KDEVY.
 
 ## Regras
 

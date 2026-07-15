@@ -1,8 +1,8 @@
-# Valores da KdevX Systems
+# Valores da KDEVY
 
 ## Honestidade técnica
 
-A KdevX Systems valoriza diagnóstico claro, comunicação direta e decisões baseadas em evidência.
+A KDEVY valoriza diagnóstico claro, comunicação direta e decisões baseadas em evidência.
 
 Problemas técnicos devem ser descritos como são, sem ocultar riscos, incertezas ou custos.
 
@@ -14,7 +14,7 @@ A empresa deve proteger informações, ativos intelectuais, acessos, dados e dec
 
 ## Conhecimento como patrimônio
 
-Conhecimento estruturado é patrimônio da KdevX Systems.
+Conhecimento estruturado é patrimônio da KDEVY.
 
 Documentos, padrões, prompts, playbooks, arquitetura e aprendizados devem ser tratados como ativos estratégicos.
 
@@ -38,6 +38,6 @@ A empresa deve preferir fundamentos sólidos a atalhos que gerem dívida desnece
 
 ## Respeito à propriedade intelectual
 
-A KdevX Systems respeita a propriedade intelectual própria e de terceiros.
+A KDEVY respeita a propriedade intelectual própria e de terceiros.
 
 Ativos intelectuais da empresa devem ser protegidos, classificados e usados apenas em contextos autorizados.

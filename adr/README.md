@@ -1,6 +1,6 @@
 # ADRs
 
-Este diretório reúne registros de decisão arquitetural da KdevX Engineering Platform.
+Este diretório reúne registros de decisão arquitetural da KDEVY Engineering Platform.
 
 ADRs registram decisões relevantes, seu contexto e suas consequências.
 

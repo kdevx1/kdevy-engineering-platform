@@ -2,14 +2,14 @@
 
 ## 1. Resumo executivo
 
-Esta revisão avalia a separação arquitetural entre KdevX Systems, KdevX Engineering Platform, AutoBody ERP e produtos futuros.
+Esta revisão avalia a separação arquitetural entre KDEVY, KDEVY Engineering Platform, AutoBody ERP e produtos futuros.
 
-O estado atual resolve uma necessidade real: registrar a identidade institucional da KdevX Systems enquanto a empresa ainda estrutura sua plataforma proprietária de engenharia. Porém, a presença de `docs/corporate/` dentro do repositório da KEP mistura duas responsabilidades diferentes:
+O estado atual resolve uma necessidade real: registrar a identidade institucional da KDEVY enquanto a empresa ainda estrutura sua plataforma proprietária de engenharia. Porém, a presença de `docs/corporate/` dentro do repositório da KEP mistura duas responsabilidades diferentes:
 
 - identidade institucional da empresa;
 - plataforma proprietária de engenharia.
 
-A recomendação técnica é adotar a Opção C: manter temporariamente `docs/corporate/` dentro da KEP, mas marcar explicitamente essa área como candidata à extração futura para um repositório institucional separado, como `kdevx-systems`.
+A recomendação técnica é adotar a Opção C: manter temporariamente `docs/corporate/` dentro da KEP, mas marcar explicitamente essa área como candidata à extração futura para um repositório institucional separado, como `kdevy-systems`.
 
 Essa opção preserva velocidade e contexto agora, mas reconhece a dívida arquitetural e define critérios objetivos para extração.
 
@@ -30,17 +30,17 @@ O repositório `kdevx-engineering-platform` contém a fundação inicial da KEP,
 - licença interna proprietária;
 - área institucional em `docs/corporate/`, ainda em construção.
 
-A KEP está descrita como plataforma-mãe proprietária da KdevX Systems. O AutoBody ERP está descrito como primeiro produto consumidor da KEP, sem cópia de código-fonte para este repositório.
+A KEP está descrita como plataforma-mãe proprietária da KDEVY. O AutoBody ERP está descrito como primeiro produto consumidor da KEP, sem cópia de código-fonte para este repositório.
 
-A área `docs/corporate/` foi criada para registrar identidade, visão, missão, valores, cultura, história, estratégia e diretrizes internas de marca da KdevX Systems.
+A área `docs/corporate/` foi criada para registrar identidade, visão, missão, valores, cultura, história, estratégia e diretrizes internas de marca da KDEVY.
 
 ## 3. Problema arquitetural identificado
 
 O problema central é a fronteira de responsabilidade.
 
-A KEP é uma plataforma de engenharia. Ela deve governar como a KdevX Systems cria, documenta, padroniza, automatiza e entrega tecnologia.
+A KEP é uma plataforma de engenharia. Ela deve governar como a KDEVY cria, documenta, padroniza, automatiza e entrega tecnologia.
 
-A identidade corporativa da KdevX Systems é mais ampla do que a KEP. Ela deve orientar a KEP, o AutoBody ERP e qualquer produto futuro. Portanto, se a identidade corporativa permanecer definitivamente dentro da KEP, o repositório da plataforma passa a carregar uma responsabilidade institucional que não pertence apenas à plataforma.
+A identidade corporativa da KDEVY é mais ampla do que a KEP. Ela deve orientar a KEP, o AutoBody ERP e qualquer produto futuro. Portanto, se a identidade corporativa permanecer definitivamente dentro da KEP, o repositório da plataforma passa a carregar uma responsabilidade institucional que não pertence apenas à plataforma.
 
 Isso cria risco de:
 
@@ -52,15 +52,15 @@ Isso cria risco de:
 
 ## 4. Separação conceitual
 
-### KdevX Systems
+### KDEVY
 
-A KdevX Systems é a entidade institucional proprietária dos ativos intelectuais, plataformas, produtos, documentos, padrões, prompts, playbooks, arquitetura e práticas criadas sob sua direção.
+A KDEVY é a entidade institucional proprietária dos ativos intelectuais, plataformas, produtos, documentos, padrões, prompts, playbooks, arquitetura e práticas criadas sob sua direção.
 
 Ela é a fonte institucional de identidade, visão, missão, valores, cultura, estratégia e diretrizes de marca.
 
-### KdevX Engineering Platform
+### KDEVY Engineering Platform
 
-A KEP é a plataforma proprietária de engenharia da KdevX Systems.
+A KEP é a plataforma proprietária de engenharia da KDEVY.
 
 Ela organiza governança técnica, conhecimento, especificações, padrões, políticas, automação, IA, entrega e documentação operacional para sustentar produtos.
 
@@ -76,7 +76,7 @@ Ele deve consumir padrões, políticas, conhecimento e práticas da plataforma, 
 
 Produtos futuros devem poder consumir:
 
-- identidade institucional da KdevX Systems;
+- identidade institucional da KDEVY;
 - padrões e práticas da KEP;
 - políticas aplicáveis;
 - diretrizes de marca e governança.
@@ -96,19 +96,19 @@ Eles não devem depender de ambiguidade entre empresa, plataforma e produto para
 ### Desvantagens
 
 - Mistura identidade institucional com plataforma de engenharia.
-- Pode fazer a KEP parecer a fonte completa da identidade da KdevX Systems.
+- Pode fazer a KEP parecer a fonte completa da identidade da KDEVY.
 - Aumenta risco de acoplamento entre decisões corporativas e decisões técnicas.
 - Pode dificultar consumo por produtos futuros que precisem da identidade corporativa sem depender da KEP.
 - Pode tornar o repositório da KEP mais amplo do que sua finalidade arquitetural.
 
 ### Riscos
 
-- Confusão conceitual entre KdevX Systems e KEP.
+- Confusão conceitual entre KDEVY e KEP.
 - Onboarding com leitura excessivamente centrada na plataforma.
 - Agentes de IA usando documentos de plataforma como se fossem governança institucional completa.
 - Crescimento desorganizado de conteúdo institucional dentro de um repositório técnico.
 
-## 6. Opção B: criar um repositório institucional separado `kdevx-systems`
+## 6. Opção B: criar um repositório institucional separado `kdevy-systems`
 
 ### Vantagens
 
@@ -164,7 +164,7 @@ Se esta opção for adotada, a dívida deve ser registrada explicitamente:
 
 - criar uma ADR ou atualizar a ADR-0001 indicando a permanência temporária;
 - marcar `docs/corporate/` como área candidata à extração;
-- registrar critérios objetivos para mover a área para `kdevx-systems`;
+- registrar critérios objetivos para mover a área para `kdevy-systems`;
 - adicionar o tema ao roadmap ou ao estado do projeto;
 - evitar que produtos futuros dependam de caminhos permanentes dentro da KEP;
 - revisar a fronteira a cada nova onda relevante.
@@ -175,7 +175,7 @@ A recomendação técnica é a Opção C.
 
 Manter `docs/corporate/` temporariamente dentro da KEP é adequado para a fase atual, desde que a decisão seja registrada como dívida arquitetural controlada.
 
-A KdevX Systems ainda está consolidando sua base institucional e técnica. Criar imediatamente um repositório `kdevx-systems` pode adicionar governança antes de haver maturidade suficiente. Ao mesmo tempo, manter a identidade corporativa na KEP sem ressalvas seria arquiteturalmente incorreto, porque a identidade da empresa é mais ampla do que a plataforma.
+A KDEVY ainda está consolidando sua base institucional e técnica. Criar imediatamente um repositório `kdevy-systems` pode adicionar governança antes de haver maturidade suficiente. Ao mesmo tempo, manter a identidade corporativa na KEP sem ressalvas seria arquiteturalmente incorreto, porque a identidade da empresa é mais ampla do que a plataforma.
 
 Portanto:
 
@@ -183,7 +183,7 @@ Portanto:
 - declarar que a área não pertence conceitualmente à KEP;
 - tratar a área como incubada dentro do repositório da KEP;
 - definir critérios para extração futura;
-- preservar a separação entre KdevX Systems, KEP, AutoBody ERP e produtos futuros.
+- preservar a separação entre KDEVY, KEP, AutoBody ERP e produtos futuros.
 
 ## 9. Impactos na estrutura atual
 
@@ -194,7 +194,7 @@ Impactos:
 - `docs/corporate/` deve ser tratada como documentação institucional incubada.
 - A KEP continua sendo plataforma proprietária de engenharia.
 - O README principal precisa deixar clara a diferença entre empresa, plataforma e produto.
-- O blueprint precisa continuar afirmando que a identidade corporativa fica em `docs/corporate/`, mas que a KdevX Systems é a entidade institucional.
+- O blueprint precisa continuar afirmando que a identidade corporativa fica em `docs/corporate/`, mas que a KDEVY é a entidade institucional.
 - A extração futura pode exigir atualização de links em README, ADRs, blueprint e documentos de onboarding.
 
 ## 10. Impactos na governança
@@ -207,7 +207,7 @@ Impactos:
 - Documentos de identidade corporativa não devem virar especificações técnicas da KEP.
 - Políticas de propriedade intelectual continuam aplicáveis.
 - Revisões futuras devem avaliar se uma mudança em `docs/corporate/` é institucional, técnica ou ambas.
-- A criação de `kdevx-systems` deve ter critérios próprios de ownership, revisão e classificação da informação.
+- A criação de `kdevy-systems` deve ter critérios próprios de ownership, revisão e classificação da informação.
 
 ## 11. Impactos em documentação, IA e onboarding
 
@@ -221,11 +221,11 @@ A documentação ganha clareza se cada documento declarar sua autoridade:
 
 ### IA
 
-Agentes de IA precisam de instruções explícitas para não tratar a KEP como sinônimo da KdevX Systems.
+Agentes de IA precisam de instruções explícitas para não tratar a KEP como sinônimo da KDEVY.
 
 Eles devem entender que:
 
-- KdevX Systems é a entidade institucional;
+- KDEVY é a entidade institucional;
 - KEP é plataforma proprietária de engenharia;
 - AutoBody ERP é produto consumidor;
 - produtos futuros podem consumir tanto identidade institucional quanto padrões da KEP.
@@ -234,7 +234,7 @@ Eles devem entender que:
 
 O onboarding deve começar pela separação conceitual:
 
-1. entender a KdevX Systems;
+1. entender a KDEVY;
 2. entender a KEP;
 3. entender produtos consumidores;
 4. entender políticas de propriedade intelectual e classificação da informação.
@@ -245,10 +245,10 @@ Essa ordem reduz ambiguidade e melhora a leitura por membros e agentes de IA.
 
 1. Registrar formalmente que `docs/corporate/` é área institucional incubada dentro da KEP.
 2. Atualizar ou criar ADR para marcar a extração futura como possibilidade explícita.
-3. Definir critérios de extração para o repositório `kdevx-systems`.
+3. Definir critérios de extração para o repositório `kdevy-systems`.
 4. Evitar que produtos futuros criem dependência permanente de caminhos internos da KEP para identidade corporativa.
 5. Revisar a fronteira ao final da Onda 1 e antes de iniciar múltiplos produtos consumidores.
-6. Criar, quando necessário, um inventário de documentos que migrariam para `kdevx-systems`.
+6. Criar, quando necessário, um inventário de documentos que migrariam para `kdevy-systems`.
 7. Manter a área livre de dados pessoais sensíveis, dados privados e código de produto.
 
 ## 13. Critérios para decisão final
@@ -271,18 +271,18 @@ Sinais fortes para extração:
 - existência de mais de um produto consumidor ativo;
 - crescimento relevante de documentos institucionais;
 - necessidade de ciclo de aprovação corporativo separado;
-- uso frequente da identidade KdevX fora do contexto da KEP;
+- uso frequente da identidade KDEVY fora do contexto da KEP;
 - necessidade de publicar materiais institucionais sem expor documentação técnica.
 
 ## 14. Checklist de aprovação
 
-- [ ] A KdevX Systems está claramente definida como entidade institucional.
+- [ ] A KDEVY está claramente definida como entidade institucional.
 - [ ] A KEP está claramente definida como plataforma proprietária de engenharia.
 - [ ] O AutoBody ERP está claramente definido como produto consumidor da KEP.
 - [ ] Produtos futuros não dependem conceitualmente de a identidade corporativa morar na KEP.
 - [ ] A presença de `docs/corporate/` dentro da KEP está marcada como temporária ou incubada.
 - [ ] A dívida arquitetural foi registrada em ADR, roadmap ou estado do projeto.
-- [ ] Há critérios claros para extrair `docs/corporate/` para `kdevx-systems`.
+- [ ] Há critérios claros para extrair `docs/corporate/` para `kdevy-systems`.
 - [ ] Não há dados pessoais sensíveis, dados privados ou código de produto nos documentos institucionais.
 - [ ] Agentes de IA recebem orientação explícita sobre empresa, plataforma e produto.
 - [ ] A decisão foi revisada antes de criar novos produtos consumidores.

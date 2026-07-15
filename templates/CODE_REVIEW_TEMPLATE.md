@@ -7,7 +7,7 @@ Explique o que deve ser validado.
 ## Pontos obrigatórios
 
 - [ ] O escopo está claro.
-- [ ] A alteração respeita a propriedade intelectual da KdevX Systems.
+- [ ] A alteração respeita a propriedade intelectual da KDEVY.
 - [ ] A alteração não copia código-fonte do AutoBody ERP.
 - [ ] O conteúdo está em português do Brasil quando aplicável.
 - [ ] A documentação é compreensível para humanos e agentes de IA.

@@ -2,20 +2,23 @@
 
 ## Identificação
 
-- Projeto: KdevX Engineering Platform
+- Projeto: KDEVY Engineering Platform
 - Sigla: KEP
-- Proprietária: KdevX Systems
+- Proprietária: KDEVY
 - Classificação padrão: Interno
 - Versão inicial: 0.1.0 Foundation
 - Onda atual: Onda 1 - Foundation
 - Corporate Identity: Incubada na KEP
 - Repository Boundaries Review: concluída
-- Dívida arquitetural: extração futura de `docs/corporate/` para `kdevx-systems`
+- Dívida arquitetural: extração futura de `docs/corporate/` para `kdevy-systems`
+- Brand Migration: concluída
+- Domínio institucional: `kdevy.com.br`
+- Registro no INPI: pendente
 - Data de criação: 2026-07-06
 
 ## Estado atual
 
-A KEP está em sua fundação inicial. Esta versão estabelece a estrutura mínima do repositório proprietário de engenharia da KdevX Systems.
+A KEP está em sua fundação inicial. Esta versão estabelece a estrutura mínima do repositório proprietário de engenharia da KDEVY.
 
 ## Escopo da versão 0.1.0 Foundation
 

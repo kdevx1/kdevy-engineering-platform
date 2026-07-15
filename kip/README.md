@@ -1,8 +1,8 @@
 # KIPs
 
-Este diretório reunirá propostas de melhoria da KdevX.
+Este diretório reunirá propostas de melhoria da KDEVY.
 
-KIPs são propostas estruturadas de melhoria para a KdevX Engineering Platform.
+KIPs são propostas estruturadas de melhoria para a KDEVY Engineering Platform.
 
 ## Quando criar uma KIP
 

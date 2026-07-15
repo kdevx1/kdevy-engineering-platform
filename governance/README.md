@@ -1,6 +1,6 @@
 # Governança
 
-Este diretório reúne documentos que descrevem o estado, as métricas e os mecanismos de governança da KdevX Engineering Platform.
+Este diretório reúne documentos que descrevem o estado, as métricas e os mecanismos de governança da KDEVY Engineering Platform.
 
 ## Conteúdo
 
@@ -12,4 +12,4 @@ Este diretório reúne documentos que descrevem o estado, as métricas e os meca
 - Manter a governança clara, objetiva e auditável.
 - Registrar mudanças relevantes de estado.
 - Escrever para humanos e agentes de IA.
-- Preservar a propriedade intelectual da KdevX Systems.
+- Preservar a propriedade intelectual da KDEVY.

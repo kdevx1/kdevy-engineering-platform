@@ -1,8 +1,8 @@
-# KdevX Engineering Platform
+# KDEVY Engineering Platform
 
 ## Visão geral
 
-A KdevX Engineering Platform, ou KEP, é a plataforma-mãe proprietária de engenharia da KdevX Systems.
+A KDEVY Engineering Platform, ou KEP, é a plataforma-mãe proprietária de engenharia da KDEVY.
 
 Ela reúne governança, conhecimento, especificações, políticas, padrões, documentação, práticas de IA, automação e entrega. Seu objetivo é criar uma base consistente para humanos e agentes de IA trabalharem com clareza, rastreabilidade e proteção da propriedade intelectual.
 
@@ -10,7 +10,7 @@ A KEP é separada dos repositórios de produtos. O AutoBody ERP é o primeiro pr
 
 ## Princípios
 
-- A KEP pertence à KdevX Systems.
+- A KEP pertence à KDEVY.
 - Este repositório usa apenas licença interna proprietária.
 - A KEP é a plataforma-mãe.
 - A KEKB é apenas o módulo de conhecimento dentro da KEP.
@@ -49,7 +49,7 @@ A arquitetura inicial da KEP é descrita em `blueprint/KEP-BLUEPRINT.md`.
 
 Resumo dos componentes:
 
-- KEP: plataforma-mãe de engenharia da KdevX Systems.
+- KEP: plataforma-mãe de engenharia da KDEVY.
 - KEKB: módulo de conhecimento dentro da KEP.
 - KES: especificações de engenharia.
 - KAF: framework de IA.
@@ -60,11 +60,11 @@ Resumo dos componentes:
 
 ## Identidade Corporativa
 
-A identidade institucional da KdevX Systems fica em `docs/corporate/README.md`.
+A identidade institucional da KDEVY fica em `docs/corporate/README.md`.
 
-Essa área separa empresa, plataforma e produtos: a KdevX Systems é a entidade institucional, a KEP é sua plataforma de engenharia, e o AutoBody ERP é produto consumidor da plataforma.
+Essa área separa empresa, plataforma e produtos: a KDEVY é a entidade institucional, a KEP é sua plataforma de engenharia, e o AutoBody ERP é produto consumidor da plataforma.
 
-`docs/corporate/` está incubada temporariamente dentro da KEP por pragmatismo inicial. Conceitualmente, a identidade corporativa pertence à KdevX Systems e poderá ser extraída futuramente para um repositório institucional separado chamado `kdevx-systems`.
+`docs/corporate/` está incubada temporariamente dentro da KEP por pragmatismo inicial. Conceitualmente, a identidade corporativa pertence à KDEVY e poderá ser extraída futuramente para um repositório institucional separado chamado `kdevy-systems`.
 
 ## Como começar
 
@@ -82,7 +82,7 @@ Essa área separa empresa, plataforma e produtos: a KdevX Systems é a entidade 
 Agentes de IA que atuem neste repositório devem:
 
 - responder e documentar em português do Brasil;
-- tratar a KEP como propriedade da KdevX Systems;
+- tratar a KEP como propriedade da KDEVY;
 - não assumir autorização de uso, cópia ou redistribuição externa;
 - não copiar código-fonte do AutoBody ERP;
 - preservar a separação entre plataforma-mãe e produtos consumidores;

@@ -6,15 +6,15 @@ Ativa
 
 ## Proprietária
 
-KdevX Systems
+KDEVY
 
 ## Objetivo
 
-Estabelecer que os ativos intelectuais da KdevX Engineering Platform pertencem à KdevX Systems.
+Estabelecer que os ativos intelectuais da KDEVY Engineering Platform pertencem à KDEVY.
 
 ## Política
 
-Todo conteúdo criado, armazenado, organizado ou evoluído neste repositório pertence à KdevX Systems.
+Todo conteúdo criado, armazenado, organizado ou evoluído neste repositório pertence à KDEVY.
 
 Isso inclui, sem limitação:
 
@@ -34,13 +34,13 @@ Isso inclui, sem limitação:
 
 ## Restrições
 
-- Este repositório usa apenas a licença interna proprietária da KdevX Systems.
-- Conteúdo deste repositório não deve ser redistribuído sem autorização da KdevX Systems.
+- Este repositório usa apenas a licença interna proprietária da KDEVY.
+- Conteúdo deste repositório não deve ser redistribuído sem autorização da KDEVY.
 - Código-fonte do AutoBody ERP não deve ser copiado para este repositório.
 - Conteúdo de produtos consumidores deve permanecer em seus repositórios próprios, salvo documentação explicitamente autorizada e sanitizada.
 
 ## Uso por agentes de IA
 
-Agentes de IA podem usar o conteúdo da KEP para apoiar tarefas autorizadas da KdevX Systems.
+Agentes de IA podem usar o conteúdo da KEP para apoiar tarefas autorizadas da KDEVY.
 
 Agentes de IA não devem divulgar, publicar, exportar ou misturar este conteúdo com bases externas sem autorização explícita.

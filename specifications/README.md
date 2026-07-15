@@ -1,8 +1,8 @@
 # Especificações
 
-Este diretório reúne as especificações da KdevX Engineering Platform.
+Este diretório reúne as especificações da KDEVY Engineering Platform.
 
-As especificações pertencem à KdevX Systems e devem orientar produtos, automações, agentes de IA e decisões técnicas.
+As especificações pertencem à KDEVY e devem orientar produtos, automações, agentes de IA e decisões técnicas.
 
 ## Convenção
 

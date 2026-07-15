@@ -6,7 +6,7 @@ Rascunho
 
 ## Objetivo
 
-Explique a melhoria proposta para a KdevX Engineering Platform.
+Explique a melhoria proposta para a KDEVY Engineering Platform.
 
 ## Motivação
 
