@@ -1,7 +1,8 @@
 # KDEVY Engineering Platform - CODEOWNERS
 #
 # Este repositório é proprietário da KDEVY.
-# Atualize o identificador abaixo para o time real no GitHub antes de exigir
-# revisão automática por CODEOWNERS.
+# O proprietário CODEOWNERS será configurado quando a organização ou o time
+# oficial da KDEVY existir no GitHub.
 
-* @kdevy/engineering
+# Exemplo futuro:
+# * @organizacao-ou-time-oficial/engineering
