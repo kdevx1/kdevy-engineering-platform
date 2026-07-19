@@ -58,6 +58,16 @@ Resumo dos componentes:
 - KDF: framework de entrega.
 - Produtos: sistemas consumidores, começando pelo AutoBody ERP.
 
+## Roadmaps e estado
+
+`roadmap/ROADMAP.md` preserva o roadmap fundacional e histórico inicial por ondas.
+
+`architecture/KEP_MASTER_ROADMAP.md` é o roadmap estratégico mestre atual da KEP.
+
+`governance/PROJECT_STATE.md` registra o estado factual corrente da plataforma.
+
+Quando houver divergência de leitura, o `KEP_MASTER_ROADMAP` orienta a estratégia atual e o `PROJECT_STATE` orienta o estado factual.
+
 ## Identidade Corporativa
 
 A identidade institucional da KDEVY fica em `docs/corporate/README.md`.
@@ -72,10 +82,12 @@ Essa área separa empresa, plataforma e produtos: a KDEVY é a entidade instituc
 2. Leia `blueprint/KEP-BLUEPRINT.md` para entender a arquitetura geral.
 3. Leia `docs/corporate/README.md` para entender a identidade institucional.
 4. Leia `governance/PROJECT_STATE.md` para entender a versão atual.
-5. Leia as políticas em `policies/`.
-6. Consulte `knowledge/GLOSSARY.md` antes de criar novos termos.
-7. Use os modelos em `templates/` para ADRs, KIPs, tarefas e revisões.
-8. Ao propor uma mudança estrutural, registre uma KIP ou ADR conforme o caso.
+5. Leia `architecture/KEP_MASTER_ROADMAP.md` para entender a estratégia atual.
+6. Consulte `roadmap/ROADMAP.md` como histórico fundacional inicial.
+7. Leia as políticas em `policies/`.
+8. Consulte `knowledge/GLOSSARY.md` antes de criar novos termos.
+9. Use os modelos em `templates/` para ADRs, KIPs, tarefas e revisões.
+10. Ao propor uma mudança estrutural, registre uma KIP ou ADR conforme o caso.
 
 ## Orientação para agentes de IA
 
@@ -92,6 +104,10 @@ Agentes de IA que atuem neste repositório devem:
 
 ## Estado atual
 
-Versão inicial: `0.1.0 Foundation`.
+Estado documental: Wave 6 em fechamento corretivo pós-tag.
 
-Esta versão cria a fundação documental e organizacional da KEP.
+Waves 1 a 4 possuem tags semânticas. A Wave 5 foi concluída por commits, sem tag própria. A Wave 6 possui a tag `wave-6-complete` e passa por correções pós-review do Delivery Framework.
+
+A Wave 7 ainda não foi iniciada.
+
+O próximo movimento planejado é um piloto controlado de adoção da KEP pelo AutoBody ERP, condicionado ao fechamento final da Wave 6.

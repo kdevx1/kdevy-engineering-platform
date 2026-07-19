@@ -1,0 +1,31 @@
+Ajustes aplicados somente nos arquivos autorizados:
+
+1. [architecture/DELIVERY_FRAMEWORK.md](/home/devx/kdevx-engineering-platform/architecture/DELIVERY_FRAMEWORK.md:96)
+2. [architecture/DELIVERY_FRAMEWORK_REVIEW.md](/home/devx/kdevx-engineering-platform/architecture/DELIVERY_FRAMEWORK_REVIEW.md:689)
+
+Seções adicionadas:
+- `4.1 Delimitação arquitetural do domínio Delivery`
+- `4.2 Restrição ao primeiro piloto`
+- `4.3 Proibição de generalização prematura`
+- `23.1 Extração futura de conceitos recorrentes`
+- `34. Revisão final`
+
+O ajuste manteve `Versão 0.1.1` e `Status Draft`. Não houve expansão funcional: não criei estados, campos obrigatórios, modelos globais, workflows globais, nem reduzi controles necessários ao piloto.
+
+Validações executadas:
+- `git diff --check`: sem problemas.
+- Inspeção dos trechos modificados: concluída.
+- Busca por `ENGINEERING_ENTITY_MODEL`, `LIFECYCLE_MODEL`, `TRACEABILITY_MODEL`, `WORKFLOW_MODEL` nos dois documentos editados: sem ocorrências.
+- Busca global: ocorrências apenas em prompts/scripts já existentes, não em modelos criados.
+- Confirmação de arquivos de modelo novos em `architecture/`: nenhum encontrado.
+- Whitespace direto nos dois documentos: sem ocorrências de espaços finais.
+- `git log -1`: HEAD permanece em `2769646`.
+- `git tag --list`: tags existentes preservadas.
+
+Riscos residuais:
+- A mudança é documental; não cria enforcement automatizado.
+- Há mudanças preexistentes no worktree fora do escopo desta execução, deixadas intactas.
+
+Recomendação final: `APPROVED_WITH_ADJUSTMENTS`.
+
+Não fiz commit, não criei ou alterei tags e não executei push.

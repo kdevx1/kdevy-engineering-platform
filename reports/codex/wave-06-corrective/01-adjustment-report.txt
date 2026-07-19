@@ -1,0 +1,49 @@
+**Resumo Executivo**
+Fechamento corretivo aplicado. O `DELIVERY_FRAMEWORK` foi elevado para `0.1.1` e agora cobre os 33 ajustes obrigatórios: readiness, validade da validação, versão verificável, alterações materiais, comunicação, rollback, estados especiais, aprovação por nível e integração com `AGENT_REGISTRY`.
+
+**Ajustes Aplicados**
+Todos os 33 ajustes foram tratados e registrados em [DELIVERY_FRAMEWORK_REVIEW.md](/home/devx/kdevx-engineering-platform/architecture/DELIVERY_FRAMEWORK_REVIEW.md:621). Principais pontos:
+
+- Delivery agora governa autorização, publicação, disponibilização, ativação operacional, registro, rollback e encerramento em [DELIVERY_FRAMEWORK.md](/home/devx/kdevx-engineering-platform/architecture/DELIVERY_FRAMEWORK.md:23).
+- Review/Validation foram explicitamente separados de Delivery em [DELIVERY_FRAMEWORK.md](/home/devx/kdevx-engineering-platform/architecture/DELIVERY_FRAMEWORK.md:63).
+- Delivery Readiness, Communication Readiness e Rollback Readiness foram formalizados em [DELIVERY_FRAMEWORK.md](/home/devx/kdevx-engineering-platform/architecture/DELIVERY_FRAMEWORK.md:220).
+- Critérios objetivos de nível, versão verificável, aprovação por nível, conflitos, divergências e riscos residuais foram adicionados em [DELIVERY_FRAMEWORK.md](/home/devx/kdevx-engineering-platform/architecture/DELIVERY_FRAMEWORK.md:306).
+- Bloqueios por validação expirada, versão divergente, alteração material não revalidada, comunicação ausente e rollback não demonstrado foram adicionados em [DELIVERY_FRAMEWORK.md](/home/devx/kdevx-engineering-platform/architecture/DELIVERY_FRAMEWORK.md:436).
+- Reentrega, entrega parcial, suspensão, republicação, invalidação e relações históricas foram definidos em [DELIVERY_FRAMEWORK.md](/home/devx/kdevx-engineering-platform/architecture/DELIVERY_FRAMEWORK.md:514).
+- Integração explícita com `AGENT_REGISTRY` foi adicionada em [DELIVERY_FRAMEWORK.md](/home/devx/kdevx-engineering-platform/architecture/DELIVERY_FRAMEWORK.md:701).
+
+**Parciais / Não Aplicados**
+Nenhum ajuste obrigatório ficou parcialmente aplicado ou não aplicado dentro do escopo autorizado.
+
+**Arquivos Modificados**
+- [architecture/DELIVERY_FRAMEWORK.md](/home/devx/kdevx-engineering-platform/architecture/DELIVERY_FRAMEWORK.md:1)
+- [governance/PROJECT_STATE.md](/home/devx/kdevx-engineering-platform/governance/PROJECT_STATE.md:1)
+- [roadmap/ROADMAP.md](/home/devx/kdevx-engineering-platform/roadmap/ROADMAP.md:1)
+- [architecture/KEP_MASTER_ROADMAP.md](/home/devx/kdevx-engineering-platform/architecture/KEP_MASTER_ROADMAP.md:1)
+- [README.md](/home/devx/kdevx-engineering-platform/README.md:61)
+- [architecture/DELIVERY_FRAMEWORK_REVIEW.md](/home/devx/kdevx-engineering-platform/architecture/DELIVERY_FRAMEWORK_REVIEW.md:610) permanece não rastreado, como já estava.
+
+`KEP_SUMMARY.html` permanece não rastreado e não foi removido, movido ou incluído.
+
+**Validações Executadas**
+- `git diff --check`: passou.
+- Whitespace direto nos 6 arquivos afetados: sem ocorrências.
+- Links/referências locais modificadas: passaram.
+- Validação básica de Markdown: passou.
+- `markdownlint`, `markdownlint-cli2` e `mdl`: indisponíveis no ambiente.
+- Verificação de arquivos modificados: feita via `git status --short`.
+- Confirmação Git: HEAD segue em `2769646 (tag: wave-6-complete, main)`.
+- Tags confirmadas sem alteração: `v0.1.0-foundation`, `v0.2.0-engineering-core`, `v0.3.0-brand-migration`, `v0.4.0-agent-foundation`, `wave-6-complete`.
+
+**Contradições Encontradas**
+Corrigidas: `PROJECT_STATE` ainda apontava Wave 1; papéis dos roadmaps estavam ambíguos; o roadmap mestre ainda tratava componentes já existentes de agentes como futuros; e havia referência residual ao roadmap antigo como “operacional por ondas”.
+
+Residual fora do escopo autorizado: `REVIEW_FRAMEWORK.md` e `VALIDATION_FRAMEWORK.md` ainda chamam `DELIVERY_FRAMEWORK` de futuro.
+
+**Riscos Residuais**
+A correção é documental, sem automação ou enforcement técnico. O `DELIVERY_FRAMEWORK` corrigido ainda deve passar por revisão arquitetural final e aceite governado antes do fechamento final da Wave 6.
+
+**Recomendação / Maturidade**
+Recomendação: submeter o Delivery Framework corrigido a revisão arquitetural final proporcional. Estimativa atualizada de maturidade documental: `9,0/10`; maturidade operacional segue baixa/inicial até adoção real.
+
+Não fiz commit, não criei tag, não movi tag e não executei push.

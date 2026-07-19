@@ -5,19 +5,27 @@
 | Campo | Valor |
 | --- | --- |
 | Documento | KEP_MASTER_ROADMAP |
-| Versão | 0.1.0 |
-| Status | Inicial |
+| Versão | 0.1.2 |
+| Status | Estratégico atual |
 | Classificação | Interno |
 | Owner | Governança da KEP |
-| Última revisão | 2026-07-15 |
+| Última revisão | 2026-07-19 |
 | Próxima revisão | A definir pela governança da KEP |
-| Histórico | Versão inicial revisada do roadmap mestre estratégico da KDEVY Engineering Platform. |
+| Histórico | Versão 0.1.2 com alinhamento pós-Wave 6, definição explícita do papel dos roadmaps e registro do fechamento corretivo do Delivery Framework. |
 
 ## 2. Visão Geral
 
 A KDEVY Engineering Platform (KEP) é a plataforma proprietária de engenharia da KDEVY. Ela organiza governança, arquitetura, conhecimento, especificações, políticas, padrões, templates, agentes de IA, automação futura e práticas de entrega para sustentar produtos consumidores.
 
-Este documento representa a evolução estratégica de longo prazo da KEP. Ele NÃO substitui `roadmap/ROADMAP.md`, que continua sendo o roadmap operacional por ondas. O KEP Master Roadmap descreve a arquitetura de evolução da plataforma: seus grandes épicos, dependências, maturidade, riscos e visão futura.
+Este documento representa a evolução estratégica de longo prazo da KEP e é o roadmap estratégico mestre atual da plataforma.
+
+`roadmap/ROADMAP.md` preserva o roadmap fundacional e histórico inicial por ondas. Ele NÃO deve ser tratado como fonte concorrente do estado estratégico atual.
+
+O KEP Master Roadmap descreve a arquitetura de evolução da plataforma: seus grandes épicos, dependências, maturidade, riscos e visão futura.
+
+O estado factual corrente da plataforma é registrado em `governance/PROJECT_STATE.md`.
+
+Quando houver divergência de leitura, este documento orienta a estratégia atual e o `PROJECT_STATE` orienta o estado factual corrente.
 
 Este documento NÃO é cronograma, NÃO define datas, NÃO garante releases e NÃO substitui processo de versionamento, aceite ou publicação. Versões citadas neste documento representam marcos arquiteturais e históricos. Qualquer release real DEVE seguir processo próprio de versionamento, aceite governado, validação e publicação.
 
@@ -128,7 +136,7 @@ Resultados:
 - definição da KEP como plataforma proprietária;
 - separação entre KEP e AutoBody ERP;
 - políticas iniciais;
-- roadmap operacional por ondas;
+- roadmap fundacional por ondas;
 - templates iniciais.
 
 Critério de conclusão:
@@ -242,14 +250,18 @@ Componentes atuais:
 
 - `architecture/AGENT_FRAMEWORK_MODEL.md`
 - `architecture/AGENT_CATALOG.md`
+- `architecture/AGENT_REGISTRY.md`
+- `architecture/AGENT_INCIDENT_REGISTER.md`
+- `architecture/AGENT_METRICS_MODEL.md`
 - `templates/AGENT_TEMPLATE.md`
+- `templates/AGENT_PLAYBOOK_TEMPLATE.md`
 
-Futuros componentes registrados apenas como visão:
+Componentes futuros registrados apenas como visão:
 
-- Agent Playbook;
-- Agent Registry;
-- Agent Incident Register;
-- Agent Metrics.
+- agentes concretos com documentos individuais;
+- playbooks operacionais aprovados para agentes ativos;
+- evidências recorrentes de uso supervisionado;
+- métricas históricas consolidadas.
 
 Resultados esperados:
 
@@ -265,14 +277,14 @@ Critério de conclusão:
 - KAF aprovado;
 - catálogo inicial aprovado sem agentes ativos por padrão;
 - template oficial aprovado;
-- processo de incidentes e permissões minimamente governado.
+- processo de incidentes e permissões minimamente governado;
 - agentes concretos governados e uso supervisionado existentes quando o épico for considerado operacionalmente concluído.
 
 O AI Framework pode ter fundação documental concluída sem estar operacionalmente concluído. A conclusão operacional exige agentes concretos governados, evidências de uso supervisionado, owners, métricas ou auditoria proporcionais ao risco.
 
 ### ÉPICO 6 - Operational Frameworks
 
-Status: Planejado.
+Status: Concluído como fundação documental inicial; Wave 6 em fechamento corretivo pós-tag.
 
 Objetivo: estruturar frameworks internos para operação recorrente da KEP, sem detalhar implementação neste documento.
 
@@ -285,15 +297,25 @@ Dependências estratégicas:
 - critérios de validação;
 - owners definidos.
 
-Possíveis áreas:
+Componentes atuais:
 
-- rotinas de validação;
-- revisão operacional;
-- qualidade documental;
+- `architecture/REVIEW_FRAMEWORK.md`
+- `architecture/VALIDATION_FRAMEWORK.md`
+- `architecture/DELIVERY_FRAMEWORK.md`
+- revisões arquiteturais associadas aos frameworks operacionais.
+
+Áreas cobertas:
+
+- revisão;
+- validação;
+- entrega;
+- bloqueios;
+- comunicação;
+- rollback;
 - auditoria;
-- publicação interna;
-- execução de playbooks;
-- métricas operacionais.
+- métricas futuras.
+
+Limite atual: os frameworks operacionais estão modelados documentalmente. Eles ainda não implementam automação, CI/CD, dashboards, APIs, registros estruturados ou operação recorrente comprovada.
 
 Critério de conclusão:
 
@@ -303,6 +325,8 @@ Critério de conclusão:
 - relação com KES, Policies, Standards e Playbooks clara.
 
 Operational Frameworks deve fornecer processos reutilizáveis para revisão, validação, entrega, incidentes, auditoria e operação segura, sem detalhar implementação ou backlog neste documento.
+
+O fechamento final da Wave 6 depende do tratamento da revisão posterior do `architecture/DELIVERY_FRAMEWORK.md` e de revisão arquitetural final proporcional.
 
 ### ÉPICO 7 - Development Frameworks
 
@@ -411,7 +435,7 @@ O KDEVY Ecosystem é visão de longo prazo e NÃO representa promessa de entrega
 | Engineering | Foundation, KES-0000, Policies | Architecture, Knowledge, AI Framework, Products |
 | Architecture | Foundation, Blueprint, ADRs | Knowledge, AI Framework, Frameworks, Products |
 | Knowledge | Foundation, Architecture, Policies | AI Framework, Standards, Playbooks, Products |
-| AI Framework | Engineering Constitution, Platform Model, Knowledge System, Policies de segurança, propriedade intelectual e classificação, governança humana, evidências e auditoria | Modelo do KAF, catálogo, template, playbooks futuros, registry futuro, incidentes e métricas futuras |
+| AI Framework | Engineering Constitution, Platform Model, Knowledge System, Policies de segurança, propriedade intelectual e classificação, governança humana, evidências e auditoria | Modelo do KAF, catálogo, template, playbook template, registry, incidentes e métricas de agentes |
 | Operational Frameworks | Modelos arquiteturais estáveis, documentação governada, KAF, templates, capacidades transversais, critérios de validação, owners definidos | Processos reutilizáveis para revisão, validação, entrega, incidentes, auditoria e operação segura |
 | Development Frameworks | Engineering, Architecture, Operational Frameworks | Produtos consumidores, AutoBody ERP |
 | Product Frameworks | Platform Model, Policies, KES, Development Frameworks | AutoBody ERP, produtos futuros |
@@ -428,11 +452,11 @@ Maturidade documental não equivale a maturidade operacional. A existência de m
 | Engineering | Em evolução | Forte inicial | Em consolidação | Baixa | Adoção prática, standards derivados e métricas | Aprovar, revisar e ampliar KES derivadas |
 | Architecture | Em evolução | Forte inicial | Em consolidação | Baixa | Uso recorrente em decisões e owners formais por domínio | Consolidar modelos e revisões |
 | Knowledge | Em evolução | Forte inicial | Em consolidação | Baixa | Lifecycle aplicado, curadoria contínua e métricas de conhecimento | Concluir governança de lifecycle documental |
-| AI Framework | Em evolução | Forte inicial | Em consolidação | Baixa | Agentes concretos governados, uso supervisionado, incidentes e métricas | Aprovar KAF, catálogo e template; validar uso controlado |
-| Operational Frameworks | Planejado | Conceitual | Não iniciado | Não iniciado | Owners, processos e critérios operacionais | Modelar sem implementar prematuramente |
-| Development Frameworks | Planejado | Conceitual | Não iniciado | Não iniciado | Critérios por tecnologia e consumidores | Definir critérios de criação por tecnologia |
+| AI Framework | Em evolução | Forte inicial | Em consolidação | Baixa | Agentes concretos governados, uso supervisionado e métricas históricas consolidadas | Validar uso controlado e manter registry, incidentes, métricas e templates coerentes |
+| Operational Frameworks | Em fechamento corretivo pós-tag | Forte inicial | Em consolidação | Baixa | Fechamento final do Delivery Framework e adoção operacional recorrente | Concluir revisão final da Wave 6 e manter Review, Validation e Delivery coerentes |
+| Development Frameworks | Planejado | Conceitual | Não iniciado | Não iniciado | Critérios por tecnologia e consumidores | Aguardar fechamento final da Wave 6 e definir critérios de criação por tecnologia |
 | Product Frameworks | Planejado | Conceitual | Não iniciado | Não iniciado | Contrato de adoção por produto | Definir contrato de adoção por produto |
-| Produtos | Planejado | Conceitual | Não iniciado | Não iniciado | Adoção real por produto consumidor | Preparar AutoBody ERP como consumidor completo |
+| Produtos | Piloto planejado | Conceitual | Não iniciado | Não iniciado | Adoção real por produto consumidor | Preparar piloto controlado do AutoBody ERP após fechamento final da Wave 6 |
 | Ecossistema | Visão | Direcional | Não iniciado | Não iniciado | Governança, múltiplos produtos e manutenção sustentável | Definir critérios de escala futura |
 
 ## 8. Marcos históricos
@@ -445,6 +469,9 @@ Versões nesta tabela representam marcos arquiteturais e históricos. Elas não 
 | v0.2.0 Engineering Core | Concluído como marco documental; em consolidação operacional | Tag `v0.2.0-engineering-core` existente | Consolidação documental da base de engenharia, KES e práticas normativas. |
 | v0.3.0 Brand Migration | Concluído | Tag `v0.3.0-brand-migration` existente | Adoção da marca KDEVY e consolidação da nomenclatura corporativa. |
 | v0.4.0 Agent Foundation | Concluído como marco documental; em consolidação operacional | Tag `v0.4.0-agent-foundation` existente | Fundação documental do KAF, catálogo e template de agentes. |
+| Wave 5 | Concluído por commits, sem tag própria | Commits no histórico local, sem tag semântica específica | Consolidação documental intermediária preservada sem criação retroativa de tag. |
+| Wave 6 | Concluído por tag, em fechamento corretivo | Tag `wave-6-complete` existente | Frameworks operacionais de Review, Validation e Delivery; correções pós-review do Delivery Framework em tratamento. |
+| Wave 7 | Não iniciada | Sem tag e sem abertura formal | Próximo movimento planejado é piloto controlado do AutoBody ERP, condicionado ao fechamento final da Wave 6. |
 | Futuro | Planejado | Sem tag definida | Marcos adicionais devem ser registrados quando aprovados pela governança da KEP. |
 
 ## 9. Critérios para avanço
@@ -466,7 +493,7 @@ Um épico PODE ser considerado concluído quando:
 - riscos residuais estão registrados;
 - critérios de conclusão foram atendidos;
 - não há conflito conhecido com KES, Policies ou ADRs aceitas;
-- há evidências suficientes para humanos e agentes de IA compreenderem o estado.
+- há evidências suficientes para humanos e agentes de IA compreenderem o estado;
 - há owner ou responsabilidade de manutenção definida.
 
 Quando o épico for operacional, também DEVE haver evidência de uso ou adoção. Criação de documentos, isoladamente, NÃO conclui um épico operacional.
@@ -703,7 +730,7 @@ A estratégia é consolidar primeiro o núcleo:
 - governança;
 - agentes de IA supervisionados.
 
-Depois, a plataforma deve avançar para frameworks operacionais, frameworks de desenvolvimento e frameworks de produto. Esses frameworks devem nascer apenas quando houver demanda real, owner, consumidores, critérios de adoção e critérios de depreciação.
+Depois do fechamento final da Wave 6, a plataforma deve avançar para um piloto controlado de adoção pelo AutoBody ERP antes de ampliar frameworks de desenvolvimento e produto. Esses frameworks devem nascer apenas quando houver demanda real, owner, consumidores, critérios de adoção e critérios de depreciação.
 
 O AutoBody ERP deve atuar como primeiro consumidor completo, validando a KEP na prática sem incorporar código de produto ao repositório da plataforma. O aprendizado gerado por esse consumo deve retornar para KIPs, ADRs, KES, Standards, Playbooks e revisões.
 
@@ -713,5 +740,6 @@ No longo prazo, a KEP poderá sustentar um ecossistema KDEVY com múltiplos prod
 
 | Versão | Alteração |
 | --- | --- |
+| 0.1.2 | Alinhamento pós-Wave 6: definição de `roadmap/ROADMAP.md` como roadmap fundacional histórico, confirmação deste documento como roadmap estratégico mestre atual, registro de Wave 5 sem tag própria, Wave 6 com tag `wave-6-complete` em fechamento corretivo e Wave 7 não iniciada. |
 | 0.1.1 | Revisão conservadora da maturidade, classificação dos marcos, fortalecimento dos critérios de conclusão, inclusão das capacidades transversais e refinamento das dependências estratégicas. |
 | 0.1.0 | Criação inicial do KEP Master Roadmap como visão arquitetural estratégica da evolução da plataforma. |
