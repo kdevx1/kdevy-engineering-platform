@@ -15,7 +15,7 @@ Essa opção preserva velocidade e contexto agora, mas reconhece a dívida arqui
 
 ## 2. Estado atual do repositório
 
-O repositório `kdevx-engineering-platform` contém a fundação inicial da KEP, incluindo:
+O repositório `kdevy-engineering-platform` contém a fundação inicial da KEP, incluindo:
 
 - blueprint da plataforma;
 - governança;

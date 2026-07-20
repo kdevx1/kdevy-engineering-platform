@@ -22,7 +22,7 @@ A KEP é separada dos repositórios de produtos. O AutoBody ERP é o primeiro pr
 ## Estrutura
 
 ```text
-kdevx-engineering-platform/
+kdevy-engineering-platform/
 ├── .github/          # Governança de revisão no GitHub
 ├── assets/           # Materiais visuais, blueprint e marca
 ├── blueprint/        # Arquitetura conceitual da KEP
